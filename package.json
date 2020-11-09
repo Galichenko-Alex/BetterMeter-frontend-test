@@ -2,6 +2,7 @@
   "name": "better-meter-frontend-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Galichenko-Alex.github.io/BetterMeter-frontend-test",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -23,6 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,6 +49,7 @@
   "devDependencies": {
     "@types/react": "^16.9.56",
     "@types/react-redux": "^7.1.11",
+    "gh-pages": "^3.1.0",
     "redux-devtools": "^3.7.0"
   }
 }
