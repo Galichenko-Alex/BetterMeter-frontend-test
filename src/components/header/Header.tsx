@@ -14,10 +14,10 @@ const useStyles = makeStyles({
 const Header = () => {
   const classes = useStyles();
   return (
-    <AppBar className={classes.header} position="fixed">
+    <AppBar position="static" className={classes.header}>
       <Toolbar>
         <Grid container alignItems="center" justify="space-between">
-          <Grid item alignItems="center">
+          <Grid item>
             <img src="logo.png" alt="logo" />
           </Grid>
           <Grid item>

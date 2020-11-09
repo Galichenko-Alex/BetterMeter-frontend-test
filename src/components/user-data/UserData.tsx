@@ -1,5 +1,6 @@
 import Avatar from '@material-ui/core/Avatar';
 import Badge from '@material-ui/core/Badge';
+import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
@@ -25,15 +26,15 @@ const UserData = () => {
   return (
     <Grid container alignItems="center" spacing={1}>
       <Grid item>
-        <ButtonGroup variant="text" color="inherit" aria-label="outlined actions">
-          <IconButton>
+        <ButtonGroup disableElevation variant="text" color="inherit" aria-label="outlined button group actions">
+          <Button>
             <SearchIcon />
-          </IconButton>
-          <IconButton>
+          </Button>
+          <Button>
             <Badge badgeContent={notifications} color="error">
               <NotificationsIcon />
             </Badge>
-          </IconButton>
+          </Button>
         </ButtonGroup>
       </Grid>
       <Grid item>
