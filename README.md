@@ -1,3 +1,5 @@
+https://galichenko-alex.github.io/BetterMeter-frontend-test/ 
+
 # BetterMeter-frontend-test
 
 ## To run app localy
